@@ -39,9 +39,9 @@ As opposed to React, in Angular we divide the component's logic, template and st
 
 ### Development
 ##### Running Postgres and pgAdmin:
-´´´
+```
 docker compose up -d
-´´´
+```
 pgAdmin's interface is at http://127.0.0.1:8080/
 
 **Closing docker containers:**

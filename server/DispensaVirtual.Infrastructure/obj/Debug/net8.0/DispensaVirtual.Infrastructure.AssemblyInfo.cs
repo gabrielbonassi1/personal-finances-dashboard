@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("DispensaVirtual.Infrastructure")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+f30188ddf9c6fbcdb88f11b60d117d7baa427afb")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+5faf715b4c7f98eaf8e1e59ae9eef2ffaa0df32d")]
 [assembly: System.Reflection.AssemblyProductAttribute("DispensaVirtual.Infrastructure")]
 [assembly: System.Reflection.AssemblyTitleAttribute("DispensaVirtual.Infrastructure")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

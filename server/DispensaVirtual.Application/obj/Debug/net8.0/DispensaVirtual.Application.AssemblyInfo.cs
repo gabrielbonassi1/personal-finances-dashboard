@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("DispensaVirtual.Application")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+f00e54e2efed12627f2685b2c661f9533648c421")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+f30188ddf9c6fbcdb88f11b60d117d7baa427afb")]
 [assembly: System.Reflection.AssemblyProductAttribute("DispensaVirtual.Application")]
 [assembly: System.Reflection.AssemblyTitleAttribute("DispensaVirtual.Application")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

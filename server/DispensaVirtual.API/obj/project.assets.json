@@ -540,11 +540,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "/home/gabriel/personal-finances-dashboard/server/DispensaVirtual.API/DispensaVirtual.API.csproj",
+      "projectUniqueName": "/home/gabriel/dispensa-virtual/server/DispensaVirtual.API/DispensaVirtual.API.csproj",
       "projectName": "DispensaVirtual.API",
-      "projectPath": "/home/gabriel/personal-finances-dashboard/server/DispensaVirtual.API/DispensaVirtual.API.csproj",
+      "projectPath": "/home/gabriel/dispensa-virtual/server/DispensaVirtual.API/DispensaVirtual.API.csproj",
       "packagesPath": "/home/gabriel/.nuget/packages/",
-      "outputPath": "/home/gabriel/personal-finances-dashboard/server/DispensaVirtual.API/obj/",
+      "outputPath": "/home/gabriel/dispensa-virtual/server/DispensaVirtual.API/obj/",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "/home/gabriel/.nuget/NuGet/NuGet.Config"
@@ -559,11 +559,11 @@
         "net8.0": {
           "targetAlias": "net8.0",
           "projectReferences": {
-            "/home/gabriel/personal-finances-dashboard/server/DispensaVirtual.Application/DispensaVirtual.Application.csproj": {
-              "projectPath": "/home/gabriel/personal-finances-dashboard/server/DispensaVirtual.Application/DispensaVirtual.Application.csproj"
+            "/home/gabriel/dispensa-virtual/server/DispensaVirtual.Application/DispensaVirtual.Application.csproj": {
+              "projectPath": "/home/gabriel/dispensa-virtual/server/DispensaVirtual.Application/DispensaVirtual.Application.csproj"
             },
-            "/home/gabriel/personal-finances-dashboard/server/DispensaVirtual.Infrastructure/DispensaVirtual.Infrastructure.csproj": {
-              "projectPath": "/home/gabriel/personal-finances-dashboard/server/DispensaVirtual.Infrastructure/DispensaVirtual.Infrastructure.csproj"
+            "/home/gabriel/dispensa-virtual/server/DispensaVirtual.Infrastructure/DispensaVirtual.Infrastructure.csproj": {
+              "projectPath": "/home/gabriel/dispensa-virtual/server/DispensaVirtual.Infrastructure/DispensaVirtual.Infrastructure.csproj"
             }
           }
         }
@@ -598,6 +598,20 @@
         ],
         "assetTargetFallback": true,
         "warn": true,
+        "downloadDependencies": [
+          {
+            "name": "Microsoft.AspNetCore.App.Ref",
+            "version": "[8.0.22, 8.0.22]"
+          },
+          {
+            "name": "Microsoft.NETCore.App.Host.ubuntu.22.04-x64",
+            "version": "[8.0.22, 8.0.22]"
+          },
+          {
+            "name": "Microsoft.NETCore.App.Ref",
+            "version": "[8.0.22, 8.0.22]"
+          }
+        ],
         "frameworkReferences": {
           "Microsoft.AspNetCore.App": {
             "privateAssets": "none"
@@ -609,5 +623,16 @@
         "runtimeIdentifierGraphPath": "/usr/lib/dotnet/sdk/8.0.122/PortableRuntimeIdentifierGraph.json"
       }
     }
-  }
+  },
+  "logs": [
+    {
+      "code": "NU1101",
+      "level": "Error",
+      "message": "Unable to find package Microsoft.NETCore.App.Host.ubuntu.22.04-x64. No packages exist with this id in source(s): nuget.org",
+      "libraryId": "Microsoft.NETCore.App.Host.ubuntu.22.04-x64",
+      "targetGraphs": [
+        "net8.0"
+      ]
+    }
+  ]
 }

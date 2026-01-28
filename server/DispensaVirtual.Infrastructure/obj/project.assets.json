@@ -50,11 +50,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "/home/gabriel/personal-finances-dashboard/server/DispensaVirtual.Infrastructure/DispensaVirtual.Infrastructure.csproj",
+      "projectUniqueName": "/home/gabriel/dispensa-virtual/server/DispensaVirtual.Infrastructure/DispensaVirtual.Infrastructure.csproj",
       "projectName": "DispensaVirtual.Infrastructure",
-      "projectPath": "/home/gabriel/personal-finances-dashboard/server/DispensaVirtual.Infrastructure/DispensaVirtual.Infrastructure.csproj",
+      "projectPath": "/home/gabriel/dispensa-virtual/server/DispensaVirtual.Infrastructure/DispensaVirtual.Infrastructure.csproj",
       "packagesPath": "/home/gabriel/.nuget/packages/",
-      "outputPath": "/home/gabriel/personal-finances-dashboard/server/DispensaVirtual.Infrastructure/obj/",
+      "outputPath": "/home/gabriel/dispensa-virtual/server/DispensaVirtual.Infrastructure/obj/",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "/home/gabriel/.nuget/NuGet/NuGet.Config"
@@ -69,8 +69,8 @@
         "net8.0": {
           "targetAlias": "net8.0",
           "projectReferences": {
-            "/home/gabriel/personal-finances-dashboard/server/DispensaVirtual.Application/DispensaVirtual.Application.csproj": {
-              "projectPath": "/home/gabriel/personal-finances-dashboard/server/DispensaVirtual.Application/DispensaVirtual.Application.csproj"
+            "/home/gabriel/dispensa-virtual/server/DispensaVirtual.Application/DispensaVirtual.Application.csproj": {
+              "projectPath": "/home/gabriel/dispensa-virtual/server/DispensaVirtual.Application/DispensaVirtual.Application.csproj"
             }
           }
         }
@@ -95,6 +95,16 @@
         ],
         "assetTargetFallback": true,
         "warn": true,
+        "downloadDependencies": [
+          {
+            "name": "Microsoft.AspNetCore.App.Ref",
+            "version": "[8.0.22, 8.0.22]"
+          },
+          {
+            "name": "Microsoft.NETCore.App.Ref",
+            "version": "[8.0.22, 8.0.22]"
+          }
+        ],
         "frameworkReferences": {
           "Microsoft.NETCore.App": {
             "privateAssets": "all"

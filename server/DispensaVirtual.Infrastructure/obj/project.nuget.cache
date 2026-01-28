@@ -1,8 +1,11 @@
 {
   "version": 2,
-  "dgSpecHash": "b7m1Oy1KMtYMCSjyL+Jo9oSSOZ2wR2mATH0/uun0LsacHJl2v1glfVXZOjV4xcNw9N4AZZLTp3dWuEmzbeeV4g==",
+  "dgSpecHash": "p9/FtE5bpQtAmlLR9E1XpdmgN/TV8YEiKns3pZkwQzuDNVvvtlZyHGMXJFXR8f0qu5BMZK8SRXJW4AzsSIticw==",
   "success": true,
-  "projectFilePath": "/home/gabriel/personal-finances-dashboard/server/DispensaVirtual.Infrastructure/DispensaVirtual.Infrastructure.csproj",
-  "expectedPackageFiles": [],
+  "projectFilePath": "/home/gabriel/dispensa-virtual/server/DispensaVirtual.Infrastructure/DispensaVirtual.Infrastructure.csproj",
+  "expectedPackageFiles": [
+    "/home/gabriel/.nuget/packages/microsoft.netcore.app.ref/8.0.22/microsoft.netcore.app.ref.8.0.22.nupkg.sha512",
+    "/home/gabriel/.nuget/packages/microsoft.aspnetcore.app.ref/8.0.22/microsoft.aspnetcore.app.ref.8.0.22.nupkg.sha512"
+  ],
   "logs": []
 }

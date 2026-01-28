@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "/home/gabriel/personal-finances-dashboard/server/DispensaVirtual.Domain/DispensaVirtual.Domain.csproj": {}
+    "/home/gabriel/dispensa-virtual/server/DispensaVirtual.Domain/DispensaVirtual.Domain.csproj": {}
   },
   "projects": {
-    "/home/gabriel/personal-finances-dashboard/server/DispensaVirtual.Domain/DispensaVirtual.Domain.csproj": {
+    "/home/gabriel/dispensa-virtual/server/DispensaVirtual.Domain/DispensaVirtual.Domain.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/home/gabriel/personal-finances-dashboard/server/DispensaVirtual.Domain/DispensaVirtual.Domain.csproj",
+        "projectUniqueName": "/home/gabriel/dispensa-virtual/server/DispensaVirtual.Domain/DispensaVirtual.Domain.csproj",
         "projectName": "DispensaVirtual.Domain",
-        "projectPath": "/home/gabriel/personal-finances-dashboard/server/DispensaVirtual.Domain/DispensaVirtual.Domain.csproj",
+        "projectPath": "/home/gabriel/dispensa-virtual/server/DispensaVirtual.Domain/DispensaVirtual.Domain.csproj",
         "packagesPath": "/home/gabriel/.nuget/packages/",
-        "outputPath": "/home/gabriel/personal-finances-dashboard/server/DispensaVirtual.Domain/obj/",
+        "outputPath": "/home/gabriel/dispensa-virtual/server/DispensaVirtual.Domain/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "/home/gabriel/.nuget/NuGet/NuGet.Config"
@@ -48,6 +48,16 @@
           ],
           "assetTargetFallback": true,
           "warn": true,
+          "downloadDependencies": [
+            {
+              "name": "Microsoft.AspNetCore.App.Ref",
+              "version": "[8.0.22, 8.0.22]"
+            },
+            {
+              "name": "Microsoft.NETCore.App.Ref",
+              "version": "[8.0.22, 8.0.22]"
+            }
+          ],
           "frameworkReferences": {
             "Microsoft.NETCore.App": {
               "privateAssets": "all"
